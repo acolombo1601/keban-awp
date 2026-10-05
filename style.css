@@ -1,0 +1,222 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #073B47;
+}
+
+h1, h2, h3, h4, .marca {
+    font-family: 'Fredoka', sans-serif;
+    color: #073B47;
+}
+
+a {
+    color: #073B47;
+}
+
+h1 i {
+    color: #FF8A3D;
+}
+
+.navbar-brand img{
+    height: 1.5rem;
+}
+
+.nav-link {
+    color: #073B47;
+}
+
+.nav-link:hover {
+    background: #E6F9FC;
+    color: #073B47;
+}
+
+.activo {
+    background: #19C3D9;
+    color: #E6F9FC;
+}
+
+.hero {
+    background: #E6F9FC;
+    min-height: 70vh;
+}
+
+.hero::before, .hero::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+.hero::before {
+    width: 10rem;
+    height: 10rem;
+    background: #FFE9DA;
+    top: -4rem;
+    right: -3rem;
+}
+
+.hero::after {
+    width: 9rem;
+    height: 9rem;
+    background: #fff;
+    bottom: -3rem;
+    left: 8%;
+}
+
+.resaltado {
+    background: linear-gradient(transparent 60%, #FF8A3D 60%);
+}
+
+.btn-naranja {
+    border-color: #FF7A22;
+    color: #FF7A22;
+}
+
+.btn-naranja:hover {
+    background-color: #FF7A22;
+    color: #FFE9DA;
+}
+
+.btn-contorno {
+    border-color: #073B47;
+    color: #073B47;
+}
+
+.btn-contorno:hover {
+    background: #073B47;
+    border-color: #073B47;
+    color: #fff;
+}
+
+.dato {
+    border-bottom: 0.35rem solid #FF8A3D;
+}
+
+.titulo-subrayado::after {
+    content: "";
+    display: block;
+    width: 3.5rem;
+    height: 0.4rem;
+    border-radius: 1rem;
+    background: #FF8A3D;
+    margin: 0.6rem auto 0;
+}
+
+
+.dato, .raza-card, .img-raza, .img-fondo button, #contenedor-favoritos button {
+    transition: all 0.2s;
+}
+
+
+.marca:hover i {
+    transform: rotate(20deg) scale(1.2);
+}
+
+.dato {
+    transform: rotate(-2deg);
+}
+
+.dato:hover {
+    transform: rotate(0) translateY(-4px);
+}
+
+.raza-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2rem rgba(25, 195, 217, 0.302) !important;
+}
+
+.raza-card:hover .img-raza {
+    transform: scale(1.05);
+}
+
+.img-fondo button:hover,
+#contenedor-favoritos button:hover {
+    transform: scale(1.1);
+}
+
+.img-fondo {
+    background: #E6F9FC;
+    overflow: hidden;
+}
+
+.img-raza {
+    width: 100%;
+    height: 12rem;
+}
+
+.img-fondo button {
+    width: 2.75rem;
+    height: 2.75rem;
+    padding-top: 4px;
+    background-color: #FFFFFF;
+}
+
+.img-fondo button.agregado {
+    background-color: #FCAAAA;
+}
+
+.modal-body h4 {
+    text-decoration-color: #FF8A3D;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.35rem;
+}
+
+#contenedor-favoritos button {
+    color: #073B47;
+}
+
+#contenedor-favoritos button:hover {
+    color: #FF8A3D;
+}
+
+.error {
+    text-align: center;
+    font-weight: 700;
+    padding: 2rem;
+    background: #FFE9DA;
+    border-radius: 1rem;
+}
+
+.sin-resultados {
+    text-align: center;
+    font-weight: 700;
+    padding: 2rem;
+    background: #E6F9FC;
+    border-radius: 1rem;
+}
+
+footer {
+    background: #E6F9FC;
+}
+
+.datos-alumno {
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration-color: #FF8A3D;
+    text-decoration-thickness: 0.15rem;
+}
+
+
+@media (min-width: 768px) {
+    .img-raza {
+        height: 14rem;
+    }
+
+    .hero::before {
+        width: 14rem;
+        height: 14rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .img-raza {
+        height: 16rem;
+    }
+
+    .hero::before {
+        width: 18rem;
+        height: 18rem;
+        top: -6rem;
+        right: -5rem;
+    }
+}
