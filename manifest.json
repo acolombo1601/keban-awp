@@ -1,0 +1,12 @@
+{
+    "name": "Keban",
+    "short-name": "KAWP",
+    "description": "Aplicación para aprender sobre razas de perro",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background-color": "#E6F9FC",
+    "theme-color": "#FF8A3D",
+    "orientation": "portrait",
+    "lang": "en",
+    "dir": "ltr"
+}
